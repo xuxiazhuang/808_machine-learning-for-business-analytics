@@ -21,3 +21,5 @@ Lec9: Random Forest
 Lec9_2: System Recommendation
 
 Lec10: Convolutional Neural Network
+
+project: dogs and cats image recognition
