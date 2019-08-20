@@ -27,7 +27,7 @@ project: dogs and cats image recognition
 # other resources
 
 ### Regularization
-what's the difference btween L1 and L2?
+what's the difference between L1 and L2?
 
 
 https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
