@@ -33,6 +33,9 @@ what's the difference between L1 and L2?
 https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 http://machinelearningspecialist.com/machine-learning-interview-questions-q8-l1-and-l2-regularization/
 
+### online resourses to learn ML
+https://www.springboard.com/blog/machine-learning-online-courses/
+
 
 # Machine learning 
 ### random forest
