@@ -36,6 +36,9 @@ http://machinelearningspecialist.com/machine-learning-interview-questions-q8-l1-
 ### online resourses to learn ML
 https://www.springboard.com/blog/machine-learning-online-courses/
 
+###  Quetions for ML
+https://www.springboard.com/blog/machine-learning-interview-questions/
+
 
 # Machine learning 
 ### random forest
@@ -76,7 +79,7 @@ Grow trees with max_leaf_nodes in best-first fashion. Best nodes are defined as 
 If int, random_state is the seed used by the random number generator; If RandomState instance, random_state is the random number generator; If None, the random number generator is the RandomState instance used by np.random.
 
 
-# Cross Valdation
+### Cross Valdation
 A good way to evaluate a model is to use cross-validation.
 K-fold cross-validaton means splitting the training set into K-folds, then making predictions and evaluating them on each fold using a model trained on the remaining folds.
 
@@ -99,6 +102,22 @@ we'll want to do something like forward chaining where you’ll be able to model
 * fold 3 : training [1 2 3], test [4]
 * fold 4 : training [1 2 3 4], test [5]
 * fold 5 : training [1 2 3 4 5], test [6]
+
+
+### Handle an imbalanced dataset
+
+An imbalanced dataset is when you have, for example, a classification test and 90% of the data is in one class. That leads to problems: an accuracy of 90% can be skewed if you have no predictive power on the other category of data! Here are a few tactics to get over the hump:
+
+* 1- Collect more data to even the imbalances in the dataset.
+
+* 2- Resample the dataset to correct for imbalances.
+
+* 3- Try a different algorithm altogether on your dataset.
+
+What’s important here is that you have a keen sense for what damage an unbalanced dataset can cause, and how to balance that.
+
+8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset
+https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
 
 
 
