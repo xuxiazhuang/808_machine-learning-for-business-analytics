@@ -87,4 +87,17 @@ cross_val_score(sgd_clf, X_train, y_train_5, cv=3, scoring="accuracy") array([ 0
 
 here we use 3 folds.
 
+What cross-validation technique would you use on a time series dataset?
+
+https://medium.com/@samuel.monnier/cross-validation-tools-for-time-series-ffa1a5a09bf9
+
+we'll want to do something like forward chaining where you’ll be able to model on past data then look at forward-facing data.
+
+fold 1 : training [1], test [2]
+fold 2 : training [1 2], test [3]
+fold 3 : training [1 2 3], test [4]
+fold 4 : training [1 2 3 4], test [5]
+fold 5 : training [1 2 3 4 5], test [6]
+
+
 
