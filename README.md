@@ -39,6 +39,12 @@ https://www.springboard.com/blog/machine-learning-online-courses/
 ###  Quetions for ML
 https://www.springboard.com/blog/machine-learning-interview-questions/
 
+### 20 Questions for python 
+https://www.springboard.com/blog/python-interview-questions/
+
+### Start up metrics
+https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version
+
 
 # Machine learning 
 ### random forest
