@@ -80,8 +80,10 @@ If int, random_state is the seed used by the random number generator; If RandomS
 A good way to evaluate a model is to use cross-validation.
 K-fold cross-validaton means splitting the training set into K-folds, then making predictions and evaluating them on each fold using a model trained on the remaining folds.
 e.g.
->>> from sklearn.model_selection import cross_val_score
->>> cross_val_score(sgd_clf, X_train, y_train_5, cv=3, scoring="accuracy") array([ 0.9502 , 0.96565, 0.96495])
+from sklearn.model_selection import cross_val_score
+
+cross_val_score(sgd_clf, X_train, y_train_5, cv=3, scoring="accuracy") array([ 0.9502 , 0.96565, 0.96495])
+
 here we use 3 folds.
 
 
