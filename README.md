@@ -23,3 +23,9 @@ Lec9_2: System Recommendation
 Lec10: Convolutional Neural Network
 
 project: dogs and cats image recognition
+
+# other resources
+
+### Regularization
+https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
+http://machinelearningspecialist.com/machine-learning-interview-questions-q8-l1-and-l2-regularization/
