@@ -24,7 +24,7 @@ Lec10: Convolutional Neural Network
 
 project: dogs and cats image recognition
 
-# other resources
+# Other resources
 
 ### Regularization
 what's the difference between L1 and L2?
@@ -74,5 +74,14 @@ Grow trees with max_leaf_nodes in best-first fashion. Best nodes are defined as 
 * random_state : int, RandomState instance or None, optional (default=None)
 
 If int, random_state is the seed used by the random number generator; If RandomState instance, random_state is the random number generator; If None, the random number generator is the RandomState instance used by np.random.
+
+
+# Cross Valdation
+A good way to evaluate a model is to use cross-validation.
+K-fold cross-validaton means splitting the training set into K-folds, then making predictions and evaluating them on each fold using a model trained on the remaining folds.
+e.g.
+>>> from sklearn.model_selection import cross_val_score
+>>> cross_val_score(sgd_clf, X_train, y_train_5, cv=3, scoring="accuracy") array([ 0.9502 , 0.96565, 0.96495])
+here we use 3 folds.
 
 
