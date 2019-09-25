@@ -135,6 +135,18 @@ Seaborn and Matplotlib are two of Python's most powerful visualization libraries
 https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d
 
 ### LightGBM
+
+https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
+
+Light GBM is a gradient boosting framework that uses tree based learning algorithm.
+
+* Can we use Light GBM everywhere?
+No, it is not advisable to use LGBM on small datasets. Light GBM is sensitive to overfitting and can easily overfit small data. Their is no threshold on the number of rows but my experience suggests me to use it only for data with 10,000+ rows.
+
+* We briefly discussed the concept of Light GBM, now what about it’s implementation?
+Implementation of Light GBM is easy, the only complicated thing is parameter tuning. Light GBM covers more than 100 parameters but don’t worry, you don’t need to learn all.
+It is very important for an implementer to know atleast some basic parameters of Light GBM. If you carefully go through following parameters of LGBM, I bet you will find this powerful algorithm a piece of cake.
+
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
 
 ### Gradient Boosting
@@ -151,5 +163,13 @@ We typically take random sub-sample/bootstrap of data for each model, so that al
 
 * Boosting is an ensemble technique in which the predictors are not made independently, but sequentially.
 This technique employs the logic in which the subsequent predictors learn from the mistakes of the previous predictors. Therefore, the observations have an unequal probability of appearing in subsequent models and ones with the highest error appear most. (So the observations are not chosen based on the bootstrap process, but based on the error). The predictors can be chosen from a range of models like decision trees, regressors, classifiers etc. Because new predictors are learning from mistakes committed by previous predictors, it takes less time/iterations to reach close to actual predictions. But we have to choose the stopping criteria carefully or it could lead to overfitting on training data. Gradient Boosting is an example of boosting algorithm.
+
+More useful resources about Gradient Boosting
+My github repo and kaggle kernel link for GBM from scratch:
+https://www.kaggle.com/grroverpr/gradient-boosting-simplified/
+https://nbviewer.jupyter.org/github/groverpr/Machine-Learning/blob/master/notebooks/01_Gradient_Boosting_Scratch.ipynb
+A detailed and intuitive explanation of gradient boosting: How to explain gradient boosting by Terence Parr and Jeremy Howard
+Fast.ai github repo link for DecisionTree from scratch (Massive ML/DL related resources): 
+https://github.com/fastai/fastai
 
 
