@@ -129,3 +129,12 @@ https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-
 ### Seaborn & Matplotlib
 
 Seaborn and Matplotlib are two of Python's most powerful visualization libraries. Seaborn uses fewer syntax and has stunning default themes and Matplotlib is more easily customizable through accessing the classes.The seaborn package was developed based on the Matplotlib library. It is used to create more attractive and informative statistical graphics. 
+
+### XGboost 
+
+https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d
+
+### Gradient Boosting
+https://medium.com/mlreview/gradient-boosting-from-scratch-1e317ae4587d
+
+
