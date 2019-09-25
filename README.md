@@ -166,10 +166,14 @@ This technique employs the logic in which the subsequent predictors learn from t
 
 More useful resources about Gradient Boosting
 My github repo and kaggle kernel link for GBM from scratch:
+
 https://www.kaggle.com/grroverpr/gradient-boosting-simplified/
+
 https://nbviewer.jupyter.org/github/groverpr/Machine-Learning/blob/master/notebooks/01_Gradient_Boosting_Scratch.ipynb
+
 A detailed and intuitive explanation of gradient boosting: How to explain gradient boosting by Terence Parr and Jeremy Howard
 Fast.ai github repo link for DecisionTree from scratch (Massive ML/DL related resources): 
+
 https://github.com/fastai/fastai
 
 
