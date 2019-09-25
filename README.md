@@ -140,7 +140,7 @@ https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgb
 ### Gradient Boosting
 https://medium.com/mlreview/gradient-boosting-from-scratch-1e317ae4587d
 
-# Brief description for Ensemble, Bagging and Boosting
+### Brief description for Ensemble, Bagging and Boosting
 When we try to predict the target variable using any machine learning technique, the main causes of difference in actual and predicted values are noise, variance, and bias. Ensemble helps to reduce these factors (except noise, which is irreducible error).
 
 An ensemble is just a collection of predictors which come together (e.g. mean of all predictions) to give a final prediction. The reason we use ensembles is that many different predictors trying to predict same target variable will perform a better job than any single predictor alone. Ensembling techniques are further classified into Bagging and Boosting.
