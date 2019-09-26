@@ -189,4 +189,13 @@ Fewer Bugs: There are fewer opportunities to mis-apply a step or forget a pre-pr
 Easier to Productionize: It can be surprisingly hard to transition a model from a prototype to something deployable at scale. We won't go into the many related concerns here, but pipelines can help.
 More Options For Model Testing: You will see an example in the next tutorial, which covers cross-validation.
 
+### cross validation
+
+Machine learning is an iterative process.
+
+You will face choices about predictive variables to use, what types of models to use,what arguments to supply those models, etc. We make these choices in a data-driven way by measuring model quality of various alternatives.
+
+You've already learned to use train_test_split to split the data, so you can measure model quality on the test data. Cross-validation extends this approach to model scoring (or "model validation.") Compared to train_test_split, cross-validation gives you a more reliable measure of your model's quality, though it takes longer to run.
+
+
 
