@@ -179,4 +179,14 @@ Fast.ai github repo link for DecisionTree from scratch (Massive ML/DL related re
 
 https://github.com/fastai/fastai
 
+### Pipelines
+Pipelines are a simple way to keep your data processing and modeling code organized. Specifically, a pipeline bundles preprocessing and modeling steps so you can use the whole bundle as if it were a single step.
+
+Many data scientists hack together models without pipelines, but Pipelines have some important benefits. Those include:
+
+Cleaner Code: You won't need to keep track of your training (and validation) data at each step of processing. Accounting for data at each step of processing can get messy. With a pipeline, you don't need to manually keep track of each step.
+Fewer Bugs: There are fewer opportunities to mis-apply a step or forget a pre-processing step.
+Easier to Productionize: It can be surprisingly hard to transition a model from a prototype to something deployable at scale. We won't go into the many related concerns here, but pipelines can help.
+More Options For Model Testing: You will see an example in the next tutorial, which covers cross-validation.
+
 
