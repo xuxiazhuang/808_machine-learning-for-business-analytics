@@ -26,6 +26,11 @@ project: dogs and cats image recognition
 
 # Other resources
 
+### Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found
+https://medium.com/machine-learning-in-practice/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78
+
+https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
+
 ### Regularization
 what's the difference between L1 and L2?
 
@@ -196,6 +201,12 @@ Machine learning is an iterative process.
 You will face choices about predictive variables to use, what types of models to use,what arguments to supply those models, etc. We make these choices in a data-driven way by measuring model quality of various alternatives.
 
 You've already learned to use train_test_split to split the data, so you can measure model quality on the test data. Cross-validation extends this approach to model scoring (or "model validation.") Compared to train_test_split, cross-validation gives you a more reliable measure of your model's quality, though it takes longer to run.
+
+### NLP
+
+How to solve 90% of NLP problems: a step-by-step guide
+https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+
 
 
 
