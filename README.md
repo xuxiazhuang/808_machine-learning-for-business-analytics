@@ -31,6 +31,8 @@ https://medium.com/machine-learning-in-practice/over-150-of-the-best-machine-lea
 
 https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
 
+https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
+
 ### Regularization
 what's the difference between L1 and L2?
 
@@ -206,6 +208,11 @@ You've already learned to use train_test_split to split the data, so you can mea
 
 How to solve 90% of NLP problems: a step-by-step guide
 https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+
+Machine Learning, NLP: Text Classification using scikit-learn, python and NLTK
+https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a
+
+
 
 
 
